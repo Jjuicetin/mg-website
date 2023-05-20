@@ -1,10 +1,30 @@
-
-.main-container{
+.main-container {
     width: 150em;
     min-height: 100em;
-    background-color: aquamarine;
+    background-color: aliceblue;
     margin: 0 auto;
     margin-top: 5em;
 
+    .letter-g {
+        position: relative;
+        left: 30em;
+    bottom: 1em;
+        font-size: 4em;
+    }
+    .letter-m{
+        position: relative;
+        top: .5em;
+        left: 7em;
+        font-size: 4em;
+    }
 
+    .main-image {
+        position: relative;
+        top: 5em;
+    }
+    .grid-container{
+        position: relative;
+        left: 20em;
+        top: 15em;
+    }
 }
